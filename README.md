@@ -72,3 +72,10 @@
    5. <bean 标签使用@Bean注解和方法实现
 
    - 此时IoC容器选择AnnotationConfigApplicationContext
+
+## Spring-AOP
+
+- AOP：概念理解——面向切面编程
+  - 切面 = 切点 + ？
+  - 底层使用技术：cglib、？（前者产生一个代理类，是目标类的子类；后者在ioc容器中产生的类对象，是与目标类实现了同一个接口的）
+    - 因此总结：前者调用ioc容器获取bean对象时，需要使用目标类本身来接收这个bean对象；后者调用ioc容器获取bean对象时，只能使用这个接口lai'jie'sho
