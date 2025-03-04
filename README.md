@@ -9,7 +9,6 @@
 TODOS：
 
 - [ ] 3.2.3
-- [ ] 至**5.5.5**
 
 | 核心点              | 掌握目标                                           |
 | ------------------- | -------------------------------------------------- |
@@ -27,14 +26,14 @@ TODOS：
 
     一个项目，一个工程，导出为一个war包，在一个Tomcat上运行。也叫all in one。
 
-    <img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image.png" style="zoom:80%;" />
+    <img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image.png" style="zoom:80%;" />
 
     单一架构，项目主要应用技术框架为：Spring , SpringMVC , Mybatis
 - 分布式架构
 
     一个项目（对应 IDEA 中的一个 project），拆分成很多个模块，每个模块对应 IDEA 中的一个 module。每一个工程都是运行在自己的 Tomcat 上。模块之间可以互相调用。每一个模块内部可以看成是一个单一架构的应用。
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-1.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-1.png)
 
     分布式架构，项目主要应用技术框架：SpringBoot (SSM), SpringCloud , 中间件等
 
@@ -42,7 +41,7 @@ TODOS：
 
 框架( Framework )是一个集成了基本结构、规范、设计模式、编程语言和程序库等基础组件的软件系统，它可以用来构建更高级别的应用程序。框架的设计和实现旨在解决特定领域中的常见问题，帮助开发人员更高效、更稳定地实现软件开发目标。
 
-<img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-2.png" style="zoom: 33%;" />
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-2.png" style="zoom: 33%;" />
 
 框架的优点包括以下几点：
 
@@ -60,7 +59,7 @@ TODOS：
 
 站在文件结构的角度理解框架，可以将框架总结：**框架 = jar包+配置文件**
 
-<img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-3.png" style="zoom:80%;" />
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-3.png" style="zoom:80%;" />
 
 莎士比亚说,"一千个观众眼中有一千个哈姆雷特" 即仁者见仁,智者见智.说每个人都会对作品有不同的理解，每个人对待任何事物都有自己的看法，同样的技术解决同样的问题会产生不同流程和风格的解决方案，而采用一种框架其实就是限制用户必须使用其规定的方案来实现，可以降低程序员之间沟通以及日后维护的成本！
 
@@ -102,7 +101,7 @@ TODOS：
 
 SpringFramework框架结构图：
 
-<img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-4.png" style="zoom: 25%;" />
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-4.png" style="zoom: 25%;" />
 
 | 功能模块       | 功能介绍                                                    |
 | -------------- | ----------------------------------------------------------- |
@@ -130,11 +129,11 @@ Spring 使创建 Java 企业应用程序变得容易。它提供了在企业环�
 
 回顾常规的三层架构处理请求流程：
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-5.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-5.png)
 
 整个项目就是由各种组件搭建而成的：
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-6.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-6.png)
 
 #### 3.1.2 我们的期待
 
@@ -185,7 +184,7 @@ Spring具体的组件管理动作包含：
 
   生活中的普通容器
 
-  <img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1img002.png" style="zoom:50%;" />
+  <img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1img002.png" style="zoom:50%;" />
 
   > 普通容器只能用来存储，没有更多功能。
 
@@ -199,7 +198,7 @@ Spring具体的组件管理动作包含：
 
   生活中的复杂容器
 
-  ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1img003.png)
+  ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1img003.png)
 
   > 政府管理我们的一生，生老病死都和政府有关。
 
@@ -223,7 +222,7 @@ Spring具体的组件管理动作包含：
 
 Spring IoC 容器，负责实例化、配置和组装 **bean（组件）**。容器通过读取配置元数据来获取有关要实例化、配置和组装组件的指令。配置元数据以 **XML、Java 注解或 Java 代码**形式表现。它允许表达组成应用程序的组件以及这些组件之间丰富的相互依赖关系。
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
 
 上图显示了 Spring 容器工作原理的高级视图。应用程序类与配置元数据相结合，您拥有完全配置且可执行的系统或应用程序。
 
@@ -256,7 +255,7 @@ Spring IoC 容器，负责实例化、配置和组装 **bean（组件）**。容
 
 Spring IoC 容器使用多种形式的配置元数据。此配置元数据表示您作为应用程序开发人员如何告诉 Spring 容器实例化、配置和组装应用程序中的对象。
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
 
 Spring框架提供了多种配置方式：XML配置方式、注解方式和Java配置类方式
 
@@ -365,7 +364,7 @@ DI 是指在组件之间传递依赖关系的过程中，将依赖关系在容�
     
 2. 思路
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1img006.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1img006.png)
     
 3. 准备项目
     - 创建maven工程（spring-ioc-xml-01）
@@ -415,7 +414,7 @@ DI 是指在组件之间传递依赖关系的过程中，将依赖关系在容�
     
         创建携带spring约束的xml配置文件
     
-        ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-8.png)
+        ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-8.png)
     
         编写配置文件：
     
@@ -494,7 +493,7 @@ DI 是指在组件之间传递依赖关系的过程中，将依赖关系在容�
     - factory-method:  指定实例工厂方法名。注意，实例方法必须是非static的！
 7. 图解IoC配置流程
 
-    <img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-9.png"  />
+    <img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-9.png"  />
 
 #### 4.2.2 实验二：组件（Bean）依赖注入配置（DI）
 
@@ -506,7 +505,7 @@ DI 是指在组件之间传递依赖关系的过程中，将依赖关系在容�
     
 2. 思路
 
-    <img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-10.png" style="zoom:50%;" />
+    <img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-10.png" style="zoom:50%;" />
     
 3. 基于构造函数的依赖注入（单个构造参数）
     - 介绍
@@ -694,7 +693,7 @@ DI 是指在组件之间传递依赖关系的过程中，将依赖关系在容�
 
    如图：
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-7.png)
 
 想要配置文件中声明组件类信息真正的进行实例化成Bean对象和形成Bean之间的引用关系，我们需要声明IoC容器对象，读取配置文件，实例化组件和关系维护的过程都是在IoC容器中实现的！
 
@@ -857,7 +856,7 @@ happyComponent.doWork();
         如果此 `FactoryBean` 返回单例，则返回 `true` ，否则返回 `false` 。此方法的默认实现返回 `true` （注意，lombok插件使用，可能影响效果）。
     - `Class<?> getObjectType()`: 返回 `getObject()` 方法返回的对象类型，如果事先不知道类型，则返回 `null` 。
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring1image-11.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring1image-11.png)
 2. FactoryBean使用场景
     - 代理类的创建
     
@@ -944,7 +943,7 @@ happyComponent.doWork();
 
     搭建一个三层架构案例，模拟查询全部学生（学生表）信息，持久层使用JdbcTemplate和Druid技术，使用XML方式进行组件管理！
 
-    <img src="https://raw.githubusercontent.com/Yukinoshita52/images/main/imgs/spring2image.png" style="zoom: 80%;" />
+    <img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/spring2image.png" style="zoom: 80%;" />
 2. 数据库准备
 
 ```Java
@@ -1383,7 +1382,7 @@ public class ControllerTest {
 
    举例：元旦联欢会要布置教室，蓝色的地方贴上元旦快乐四个字，红色的地方贴上拉花，黄色的地方贴上气球。
 
-   ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1img015.png)
+   ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1img015.png)
 
    班长做了所有标记，同学们来完成具体工作。墙上的标记相当于我们在代码中使用的注解，后面同学们做的工作，相当于框架的具体操作。
 
@@ -1833,7 +1832,7 @@ public class BeanOne {
        ```
    2. 工作流程
 
-       ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1img018.png)
+       ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1img018.png)
 
        - 首先根据所需要的组件类型到 IOC 容器中查找
            - 能够找到唯一的 bean：直接执行装配
@@ -2005,7 +2004,7 @@ public class CommonComponent {
 
     搭建一个三层架构案例，模拟查询全部学生（学生表）信息，持久层使用JdbcTemplate和Druid技术，使用XML+注解方式进行组件管理！
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1image.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1image.png)
 2. 数据库准备
 
 ```Java
@@ -2292,7 +2291,7 @@ Spring 完全注解配置（Fully Annotation-based Configuration）是指通过 
 
 **两种方式思维转化**：
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1image.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1image.png)
 
 #### 4.4.2 实验一：配置类和扫描注解
 
@@ -2715,7 +2714,7 @@ public static void main(String[] args) {
 
     搭建一个三层架构案例，模拟查询全部学生（学生表）信息，持久层使用JdbcTemplate和Druid技术，使用注解+配置类方式进行组件管理！
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1image.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1image.png)
 2. 数据库准备
 
 ```Java
@@ -3180,7 +3179,7 @@ public class CalculatorPureImpl implements Calculator {
 
       新需求： 需要在每个方法中，添加控制台输出，输出参数和输出计算后的返回值！
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages1aopimg002.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages1aopimg002.png)
 
 ```Java
 package com.atguigu.proxy;
@@ -3258,11 +3257,11 @@ public class CalculatorLogImpl implements Calculator {
 
       无代理场景：
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303184945140.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303184945140.png)
 
       有代理场景：
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185027292.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185027292.png)
 
       生活中的代理：
 
@@ -3321,7 +3320,7 @@ public class CalculatorStaticProxy implements Calculator {
 
       JDK动态代理技术实现（了解）
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185210984.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185210984.png)
 
         代理工程：基于jdk代理技术，生成代理对象
 
@@ -3405,13 +3404,13 @@ public void testDynamicProxy(){
 
       AOP可以说是OOP（Object Oriented Programming，面向对象编程）的补充和完善。OOP引入封装、继承、多态等概念来建立一种对象层次结构，用于模拟公共行为的一个集合。不过OOP允许开发者定义纵向的关系，但并不适合定义横向的关系，例如日志功能。日志代码往往横向地散布在所有对象层次中，而与它对应的对象的核心功能毫无关系对于其他类型的代码，如安全性、异常处理和透明的持续性也都是如此，这种散布在各处的无关的代码被称为横切（cross cutting），在OOP设计中，它导致了大量代码的重复，而不利于各个模块的重用。
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185248315.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185248315.png)
 
       AOP技术恰恰相反，它利用一种称为"横切"的技术，剖解开封装的对象内部，并将那些影响了多个类的公共行为封装到一个可重用模块，并将其命名为"Aspect"，即切面。所谓"切面"，简单说就是那些与业务无关，却为业务模块所共同调用的逻辑或责任封装起来，便于减少系统的重复代码，降低模块之间的耦合度，并有利于未来的可操作性和可维护性。
 
       使用AOP，可以在不修改原来代码的基础上添加新功能。
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185323813.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185323813.png)
   2. **AOP思想主要的应用场景**
 
       AOP（面向切面编程）是一种编程范式，它通过将通用的横切关注点（如日志、事务、权限控制等）与业务逻辑分离，使得代码更加清晰、简洁、易于维护。AOP可以应用于各种场景，以下是一些常见的AOP应用场景：
@@ -3433,7 +3432,7 @@ public void testDynamicProxy(){
 
       这个概念不是语法层面天然存在的，而是根据附加功能的逻辑上的需要：有十个附加功能，就有十个横切关注点。
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185348952.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185348952.png)
 
       AOP把软件系统分为两个部分：核心关注点和横切关注点。业务处理的主要流程是核心关注点，与之关系不大的部分是横切关注点。横切关注点的一个特点是，他们经常发生在核心关注点的多处，而各处基本相似，比如权限认证、日志、事务、异常等。AOP的作用在于分离系统中的各种关注点，将核心关注点和横切关注点分离开来。
 
@@ -3447,7 +3446,7 @@ public void testDynamicProxy(){
       - 后置通知：在被代理的目标方法最终结束后执行（**盖棺定论**）
       - 环绕通知：使用try...catch...finally结构围绕整个被代理的目标方法，包括上面四种通知对应的所有位置
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185409057.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185409057.png)
 
       3-连接点 joinpoint
 
@@ -3455,7 +3454,7 @@ public void testDynamicProxy(){
 
       指那些被拦截到的点。在 Spring 中，可以被动态代理拦截目标类的方法
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185423793.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185423793.png)
 
       4-切入点 pointcut
 
@@ -3467,7 +3466,7 @@ public void testDynamicProxy(){
 
       切入点和通知的结合。是一个类。
 
-      ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185442768.png)
+      ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185442768.png)
 
       6-目标 target
 
@@ -3490,7 +3489,7 @@ public void testDynamicProxy(){
 
   #### 5.5.1 Spring AOP底层技术组成
 
-![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303185553252.png)
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303185553252.png)
 
 - 动态代理（InvocationHandler）：JDK原生的实现方式，需要被代理的目标类必须实现接口。因为这个技术要求代理对象和目标对象实现同样的接口（兄弟两个拜把子模式）。
 - cglib：通过继承被代理的目标类（认干爹模式）实现代理，所以不需要目标类实现接口。
@@ -3755,13 +3754,13 @@ public void printLogAfterCoreException(JoinPoint joinPoint, Throwable targetMeth
 
     AOP切点表达式（Pointcut Expression）是一种用于指定切点的语言，它可以通过定义匹配规则，来选择需要被切入的目标对象。
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303190008725.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303190008725.png)
 
 2. **切点表达式语法**
 
     切点表达式总结
 
-    ![](https://raw.githubusercontent.com/Yukinoshita52/images/main/newImages120250303190020467.png)
+    ![](https://raw.gitmirror.com/Yukinoshita52/images/main/newImages120250303190020467.png)
 
     语法细节
 
@@ -3834,7 +3833,7 @@ execution(*) == 你只要考虑返回值 或者 不考虑访问修饰符 相当�
 ```
 
 #### 5.5.5 重用（提取）切点表达式
-    1. 重用切点表达式优点
+1. 重用切点表达式优点
 
 ```Java
  // @Before注解：声明当前方法是前置通知方法
@@ -3860,14 +3859,15 @@ public void printLogFinallyEnd() {
 }
 ```
 
-        上面案例，是我们之前编写切点表达式的方式，发现， 所有增强方法的切点表达式相同！
-    
-        出现了冗余，如果需要切换也不方便统一维护！
-    
-        我们可以将切点提取，在增强上进行引用即可！
-    2. 同一类内部引用
-    
-        提取
+上面案例，是我们之前编写切点表达式的方式，发现， 所有增强方法的切点表达式相同！
+
+出现了冗余，如果需要切换也不方便统一维护！
+
+我们可以将切点提取，在增强上进行引用即可！
+
+2. 同一类内部引用
+
+提取
 
 ```Java
 // 切入点表达式重用
@@ -3875,25 +3875,25 @@ public void printLogFinallyEnd() {
 public void declarPointCut() {}
 ```
 
-        注意：提取切点注解使用@Pointcut(切点表达式) ， 需要添加到一个无参数无返回值方法上即可！
-    
-        引用
+注意：提取切点注解使用@Pointcut(切点表达式) ， 需要添加到一个无参数无返回值方法上即可！
+
+引用
 
 ```Java
 @Before(value = "declarPointCut()")
 public void printLogBeforeCoreOperation(JoinPoint joinPoint) {
 ```
-    3. 不同类中引用
-    
-        不同类在引用切点，只需要添加类的全限定符+方法名即可！
+3. 不同类中引用
+
+不同类在引用切点，只需要添加类的全限定符+方法名即可！
 
 ```Java
 @Before(value = "com.atguigu.spring.aop.aspect.LogAspect.declarPointCut()")
 public Object roundAdvice(ProceedingJoinPoint joinPoint) {
 ```
-    4. 切点统一管理
-    
-        建议：将切点表达式统一存储到一个类中进行集中管理和维护！
+4. 切点统一管理
+
+建议：将切点表达式统一存储到一个类中进行集中管理和维护！
 
 ```Java
 @Component
@@ -3912,7 +3912,7 @@ public class AtguiguPointCut {
 
   #### 5.5.6 环绕通知
 
-    环绕通知对应整个 try...catch...finally 结构，包括前面四种通知的所有功能。
+环绕通知对应整个 try...catch...finally 结构，包括前面四种通知的所有功能。
 
 ```Java
 // 使用@Around注解标明环绕通知方法
@@ -3965,29 +3965,29 @@ public Object manageTransaction(
 
   #### 5.5.7 切面优先级设置
 
-    相同目标方法上同时存在多个切面时，切面的优先级控制切面的内外嵌套顺序。
-    
-    - 优先级高的切面：外面
-    - 优先级低的切面：里面
-    
-    使用 @Order 注解可以控制切面的优先级：
-    
-    - @Order(较小的数)：优先级高
-    - @Order(较大的数)：优先级低
-    
-    ![](https://secure2.wostatic.cn/static/iEnKQ8R7ApCSeaF4x3wuYa/aopimg012.png)
-    
-    实际意义
-    
-    实际开发时，如果有多个切面嵌套的情况，要慎重考虑。例如：如果事务切面优先级高，那么在缓存中命中数据的情况下，事务切面的操作都浪费了。
-    
-    ![](https://secure2.wostatic.cn/static/6g2Cj5L8KRRnnaZ3zRReu/aopimg013.png)
-    
-    此时应该将缓存切面的优先级提高，在事务操作之前先检查缓存中是否存在目标数据。
+相同目标方法上同时存在多个切面时，切面的优先级控制切面的内外嵌套顺序。
+
+- 优先级高的切面：外面
+- 优先级低的切面：里面
+
+使用 @Order 注解可以控制切面的优先级：
+
+- @Order(较小的数)：优先级高
+- @Order(较大的数)：优先级低
+
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/oldImgs/DataStructruesAndAlgorithm/20250304153810739.png" style="zoom:67%;" />
+
+实际意义
+
+实际开发时，如果有多个切面嵌套的情况，要慎重考虑。例如：如果事务切面优先级高，那么在缓存中命中数据的情况下，事务切面的操作都浪费了。
+
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304153920657.png" style="zoom:67%;" />
+
+此时应该将缓存切面的优先级提高，在事务操作之前先检查缓存中是否存在目标数据。
 
   #### 5.5.8 CGLib动态代理生效
 
-    在目标类没有实现任何接口的情况下，Spring会自动使用cglib技术实现代理。为了证明这一点，我们做下面的测试：
+在目标类没有实现任何接口的情况下，Spring会自动使用cglib技术实现代理。为了证明这一点，我们做下面的测试：
 
 ```Java
 @Service
@@ -3999,7 +3999,7 @@ public class EmployeeService {
 }
 ```
 
-    测试：
+测试：
 
 ```Java
   @Autowired
@@ -4011,27 +4011,27 @@ public class EmployeeService {
   }
 ```
 
-    没有接口：
-    
-    ![](https://secure2.wostatic.cn/static/wDFPhenVxhRjSLAYxZxe66/img029.png)
-    
-    有接口：
-    
-    ![](https://secure2.wostatic.cn/static/9GdskQzE3TDD2FnqUTLQJU/img030.png)
-    
-    使用总结：
-    
-      a.  如果目标类有接口,选择使用jdk动态代理
-    
-      b.  如果目标类没有接口,选择cglib动态代理
-    
-      c.  如果有接口,接口接值
-    
-      d.  如果没有接口,类进行接值
+没有接口：
+
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154020197.png)
+
+有接口：
+
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154028614.png)
+
+使用总结：
+
+a.  如果目标类有接口,选择使用jdk动态代理
+
+b.  如果目标类没有接口,选择cglib动态代理
+
+c.  如果有接口,接口接值
+
+d.  如果没有接口,类进行接值
 
   #### 5.5.9 注解实现小结
 
-    ![](https://secure2.wostatic.cn/static/sfHfbbULBw5jTj8dnzEnKT/aopimg015.png)
+<img src="https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154048862.png" style="zoom:50%;" />
 
 ### 5.6 Spring AOP基于XML方式实现(了解)
   1. 准备工作
@@ -4109,80 +4109,76 @@ public class AopTest {
 
 ### 5.7 Spring AOP对获取Bean的影响理解
 
-  #### 5.7.1 根据类型装配 bean
-    1. 情景一
-        - bean 对应的类没有实现任何接口
-        - 根据 bean 本身的类型获取 bean
-            - 测试：IOC容器中同类型的 bean 只有一个
-    
-                正常获取到 IOC 容器中的那个 bean 对象
-            - 测试：IOC 容器中同类型的 bean 有多个
-    
-                会抛出 NoUniqueBeanDefinitionException 异常，表示 IOC 容器中这个类型的 bean 有多个
-    2. 情景二
-        - bean 对应的类实现了接口，这个接口也只有这一个实现类
-            - 测试：根据接口类型获取 bean
-            - 测试：根据类获取 bean
-            - 结论：上面两种情况其实都能够正常获取到 bean，而且是同一个对象
-    3. 情景三
-        - 声明一个接口
-        - 接口有多个实现类
-        - 接口所有实现类都放入 IOC 容器
-            - 测试：根据接口类型获取 bean
-    
-                会抛出 NoUniqueBeanDefinitionException 异常，表示 IOC 容器中这个类型的 bean 有多个
-            - 测试：根据类获取bean
-    
-                正常
-    4. 情景四
-        - 声明一个接口
-        - 接口有一个实现类
-        - 创建一个切面类，对上面接口的实现类应用通知
-            - 测试：根据接口类型获取bean
-    
-                正常
-            - 测试：根据类获取bean
-    
-                无法获取
-    
-        原因分析：
-    
-        - 应用了切面后，真正放在IOC容器中的是代理类的对象
-        - 目标类并没有被放到IOC容器中，所以根据目标类的类型从IOC容器中是找不到的
-    
-            ![](http://heavy_code_industry.gitee.io/code_heavy_industry/assets/img/img021.3e0da1cc.png)
-    5. 情景五
-        - 声明一个类
-        - 创建一个切面类，对上面的类应用通知
-            - 测试：根据类获取 bean，能获取到
-    
-            ![](http://heavy_code_industry.gitee.io/code_heavy_industry/assets/img/img023.b5696f3e.png)
-    
-            debug查看实际类型：
-    
-            ![](http://heavy_code_industry.gitee.io/code_heavy_industry/assets/img/img024.558f6062.png)
+#### 5.7.1 根据类型装配 bean
+1. 情景一
+    - bean 对应的类没有实现任何接口
+    - 根据 bean 本身的类型获取 bean
+        - 测试：IOC容器中同类型的 bean 只有一个
+
+            正常获取到 IOC 容器中的那个 bean 对象
+        - 测试：IOC 容器中同类型的 bean 有多个
+
+            会抛出 NoUniqueBeanDefinitionException 异常，表示 IOC 容器中这个类型的 bean 有多个
+2. 情景二
+    - bean 对应的类实现了接口，这个接口也只有这一个实现类
+        - 测试：根据接口类型获取 bean
+        - 测试：根据类获取 bean
+        - 结论：上面两种情况其实都能够正常获取到 bean，而且是同一个对象
+3. 情景三
+    - 声明一个接口
+    - 接口有多个实现类
+    - 接口所有实现类都放入 IOC 容器
+        - 测试：根据接口类型获取 bean
+
+            会抛出 NoUniqueBeanDefinitionException 异常，表示 IOC 容器中这个类型的 bean 有多个
+        - 测试：根据类获取bean
+
+            正常
+4. 情景四
+    - 声明一个接口
+    - 接口有一个实现类
+    - 创建一个切面类，对上面接口的实现类应用通知
+        - 测试：根据接口类型获取bean
+
+            正常
+        - 测试：根据类获取bean
+
+            无法获取
+
+    原因分析：
+
+    - 应用了切面后，真正放在IOC容器中的是代理类的对象
+    - 目标类并没有被放到IOC容器中，所以根据目标类的类型从IOC容器中是找不到的
+
+5. 情景五
+    - 声明一个类
+    - 创建一个切面类，对上面的类应用通知
+        - 测试：根据类获取 bean，能获取到
+
+        debug查看实际类型：
+
 
   #### 5.7.2 使用总结
 
-    对实现了接口的类应用切面
-    
-    ![](https://secure2.wostatic.cn/static/dJxjyGJAQazCzzNRQCyPMb/image.png)
-    
-    对没实现接口的类应用切面new
-    
-    ![](https://secure2.wostatic.cn/static/mRgDnd1d6a3oa73t2A7LDK/image.png)
-    
-    **如果使用AOP技术，目标类有接口，必须使用接口类型接收IoC容器中代理组件！**
+对实现了接口的类应用切面
+
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154442048.png)
+
+对没实现接口的类应用切面new
+
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154509465.png)
+
+**如果使用AOP技术，目标类有接口，必须使用接口类型接收IoC容器中代理组件！**
 
 ## 六、Spring 声明式事务
 
-  ### 6.1 声明式事务概念
+### 6.1 声明式事务概念
 
-    #### 6.1.1 编程式事务
-    
-      编程式事务是指手动编写程序来管理事务，即通过编写代码的方式直接控制事务的提交和回滚。在 Java 中，通常使用事务管理器(如 Spring 中的 `PlatformTransactionManager`)来实现编程式事务。
-    
-      编程式事务的主要优点是灵活性高，可以按照自己的需求来控制事务的粒度、模式等等。但是，编写大量的事务控制代码容易出现问题，对代码的可读性和可维护性有一定影响。
+#### 6.1.1 编程式事务
+
+  编程式事务是指手动编写程序来管理事务，即通过编写代码的方式直接控制事务的提交和回滚。在 Java 中，通常使用事务管理器(如 Spring 中的 `PlatformTransactionManager`)来实现编程式事务。
+
+编程式事务的主要优点是灵活性高，可以按照自己的需求来控制事务的粒度、模式等等。但是，编写大量的事务控制代码容易出现问题，对代码的可读性和可维护性有一定影响。
 
 ```Java
 Connection conn = ...;
@@ -4208,47 +4204,48 @@ try {
 }
 ```
 
-      编程式的实现方式存在缺陷：
-    
-      - 细节没有被屏蔽：具体操作过程中，所有细节都需要程序员自己来完成，比较繁琐。
-      - 代码复用性不高：如果没有有效抽取出来，每次实现功能都需要自己编写代码，代码就没有得到复用。
-    
-    #### 6.1.2 声明式事务
-    
-      声明式事务是指使用注解或 XML 配置的方式来控制事务的提交和回滚。
-    
-      开发者只需要添加配置即可， 具体事务的实现由第三方框架实现，避免我们直接进行事务操作！
-    
-      使用声明式事务可以将事务的控制和业务逻辑分离开来，提高代码的可读性和可维护性。
-    
-      区别：
-    
-      - 编程式事务需要手动编写代码来管理事务
-      - 而声明式事务可以通过配置文件或注解来控制事务。
-    
-    #### 6.1.3 Spring事务管理器
-      1. Spring声明式事务对应依赖
-          - spring-tx: 包含声明式事务实现的基本规范（事务管理器规范接口和事务增强等等）
-          - spring-jdbc: 包含DataSource方式事务管理器实现类DataSourceTransactionManager
-          - spring-orm: 包含其他持久层框架的事务管理器实现类例如：Hibernate/Jpa等
-      2. Spring声明式事务对应事务管理器接口
-    
-          ![](https://secure2.wostatic.cn/static/cTpSy6E9Vzq4H8i1x7MLEf/image.png)
-    
-          我们现在要使用的事务管理器是org.springframework.jdbc.datasource.DataSourceTransactionManager，将来整合 JDBC方式、JdbcTemplate方式、Mybatis方式的事务实现！
-    
-          DataSourceTransactionManager类中的主要方法：
-    
-          - doBegin()：开启事务
-          - doSuspend()：挂起事务
-          - doResume()：恢复挂起的事务
-          - doCommit()：提交事务
-          - doRollback()：回滚事务
+编程式的实现方式存在缺陷：
 
-  ### 6.2 基于注解的声明式事务
+- 细节没有被屏蔽：具体操作过程中，所有细节都需要程序员自己来完成，比较繁琐。
+- 代码复用性不高：如果没有有效抽取出来，每次实现功能都需要自己编写代码，代码就没有得到复用。
 
-    #### 6.2.1 准备工作
-      1. 准备项目
+#### 6.1.2 声明式事务
+
+声明式事务是指使用注解或 XML 配置的方式来控制事务的提交和回滚。
+
+开发者只需要添加配置即可， 具体事务的实现由第三方框架实现，避免我们直接进行事务操作！
+
+使用声明式事务可以将事务的控制和业务逻辑分离开来，提高代码的可读性和可维护性。
+
+区别：
+
+- 编程式事务需要手动编写代码来管理事务
+- 而声明式事务可以通过配置文件或注解来控制事务。
+
+#### 6.1.3 Spring事务管理器
+1. Spring声明式事务对应依赖
+
+     - spring-tx: 包含声明式事务实现的基本规范（事务管理器规范接口和事务增强等等）
+     - spring-jdbc: 包含DataSource方式事务管理器实现类DataSourceTransactionManager
+     - spring-orm: 包含其他持久层框架的事务管理器实现类例如：Hibernate/Jpa等
+2. Spring声明式事务对应事务管理器接口
+
+ ![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304154741417.png)
+
+  我们现在要使用的事务管理器是`org.springframework.jdbc.datasource.DataSourceTransactionManager`，将来整合 JDBC方式、JdbcTemplate方式、Mybatis方式的事务实现！
+
+  DataSourceTransactionManager类中的主要方法：
+
+  - doBegin()：开启事务
+  - doSuspend()：挂起事务
+  - doResume()：恢复挂起的事务
+  - doCommit()：提交事务
+  - doRollback()：回滚事务
+
+### 6.2 基于注解的声明式事务
+
+#### 6.2.1 准备工作
+1. 准备项目
 
 ```XML
 <dependencies>
@@ -4322,9 +4319,9 @@ try {
   </dependency>
 </dependencies>
 ```
-      2. 外部配置文件
-    
-          jdbc.properties
+2. 外部配置文件
+
+jdbc.properties
 
 ```.properties
 atguigu.url=jdbc:mysql://localhost:3306/studb
@@ -4332,7 +4329,7 @@ atguigu.driver=com.mysql.cj.jdbc.Driver
 atguigu.username=root
 atguigu.password=root
 ```
-      3. spring配置文件
+3. spring配置文件
 
 ```Java
 @Configuration
@@ -4374,9 +4371,9 @@ public class JavaConfig {
 }
 
 ```
-      4. 准备dao/service层
-    
-          dao
+4. 准备dao/service层
+
+dao
 
 ```Java
 @Repository
@@ -4398,7 +4395,7 @@ public class StudentDao {
 
 ```
 
-          service
+service
 
 ```Java
 @Service
@@ -4415,7 +4412,7 @@ public class StudentService {
 }
 
 ```
-      5. 测试环境搭建
+5. 测试环境搭建
 
 ```Java
 /**
@@ -4437,10 +4434,10 @@ public class TxTest {
 
 ```
 
-    #### 6.2.2 基本事务控制
-      1. 配置事务管理器
-    
-          数据库相关的配置
+#### 6.2.2 基本事务控制
+1. 配置事务管理器
+
+数据库相关的配置
 
 ```Java
 /**
@@ -4502,7 +4499,7 @@ public class DataSourceConfig {
 }
 
 ```
-      2. 使用声明事务注解@Transactional
+2. 使用声明事务注解@Transactional
 
 ```Java
 /**
@@ -4525,7 +4522,7 @@ public class StudentService {
 }
 
 ```
-      3. 测试事务效果
+3. 测试事务效果
 
 ```Java
 /**
@@ -4548,32 +4545,37 @@ public class TxTest {
 
 ```
 
-    #### 6.2.3 事务属性：只读
-      1. 只读介绍
-    
-          对一个查询操作来说，如果我们把它设置成只读，就能够明确告诉数据库，这个操作不涉及写操作。这样数据库就能够针对查询操作来进行优化。
-      2. 设置方式
+#### 6.2.3 事务属性：只读
+1. 只读介绍
+
+对一个查询操作来说，如果我们把它设置成只读，就能够明确告诉数据库，这个操作不涉及写操作。这样数据库就能够针对查询操作来进行优化。
+2. 设置方式
 
 ```Java
 // readOnly = true把当前事务设置为只读 默认是false!
 @Transactional(readOnly = true)
 ```
-      3. 针对DML动作设置只读模式
-    
-          会抛出下面异常：
-    
-          Caused by: java.sql.SQLException: Connection is read-only. Queries leading to data modification are not allowed
-      4. @Transactional注解放在类上
-          1. 生效原则
-    
-              如果一个类中每一个方法上都使用了 @Transactional 注解，那么就可以将 @Transactional 注解提取到类上。反过来说：@Transactional 注解在类级别标记，会影响到类中的每一个方法。同时，类级别标记的 @Transactional 注解中设置的事务属性也会延续影响到方法执行时的事务属性。除非在方法上又设置了 @Transactional 注解。
-    
-              对一个方法来说，离它最近的 @Transactional 注解中的事务属性设置生效。
-          2. 用法举例
-    
-              在类级别@Transactional注解中设置只读，这样类中所有的查询方法都不需要设置@Transactional注解了。因为对查询操作来说，其他属性通常不需要设置，所以使用公共设置即可。
-    
-              然后在这个基础上，对增删改方法设置@Transactional注解 readOnly 属性为 false。
+3. 针对DML动作设置只读模式
+
+  会抛出下面异常：
+
+```bash
+Caused by: java.sql.SQLException: Connection is read-only. Queries leading to data modification are not allowed
+```
+
+4. @Transactional注解放在类上
+
+      - 生效原则
+
+        如果一个类中每一个方法上都使用了 @Transactional 注解，那么就可以将 @Transactional 注解提取到类上。反过来说：@Transactional 注解在类级别标记，会影响到类中的每一个方法。同时，类级别标记的 @Transactional 注解中设置的事务属性也会延续影响到方法执行时的事务属性。除非在方法上又设置了 @Transactional 注解。
+
+        对一个方法来说，离它最近的 @Transactional 注解中的事务属性设置生效。
+
+      - 用法举例
+
+        在类级别@Transactional注解中设置只读，这样类中所有的查询方法都不需要设置@Transactional注解了。因为对查询操作来说，其他属性通常不需要设置，所以使用公共设置即可。
+
+        然后在这个基础上，对增删改方法设置@Transactional注解 readOnly 属性为 false。
 
 ```Java
 @Service
@@ -4595,15 +4597,15 @@ public class EmpService {
 }
 ```
 
-    #### 6.2.4 事务属性：超时时间
-      1. 需求
-    
-          事务在执行过程中，有可能因为遇到某些问题，导致程序卡住，从而长时间占用数据库资源。而长时间占用资源，大概率是因为程序运行出现了问题（可能是Java程序或MySQL数据库或网络连接等等）。
-    
-          此时这个很可能出问题的程序应该被回滚，撤销它已做的操作，事务结束，把资源让出来，让其他正常程序可以执行。
-    
-          概括来说就是一句话：超时回滚，释放资源。
-      2. 设置超时时间
+#### 6.2.4 事务属性：超时时间
+1. 需求
+
+事务在执行过程中，有可能因为遇到某些问题，导致程序卡住，从而长时间占用数据库资源。而长时间占用资源，大概率是因为程序运行出现了问题（可能是Java程序或MySQL数据库或网络连接等等）。
+
+此时这个很可能出问题的程序应该被回滚，撤销它已做的操作，事务结束，把资源让出来，让其他正常程序可以执行。
+
+概括来说就是一句话：超时回滚，释放资源。
+2. 设置超时时间
 
 ```Java
 @Service
@@ -4629,9 +4631,9 @@ public class StudentService {
 }
 
 ```
-      3. 测试超时效果
-    
-          执行抛出事务超时异常
+3. 测试超时效果
+
+执行抛出事务超时异常
 
 ```Java
 org.springframework.transaction.TransactionTimedOutException: Transaction timed out: deadline was Wed May 24 09:10:43 IRKT 2023
@@ -4644,10 +4646,10 @@ org.springframework.transaction.TransactionTimedOutException: Transaction timed 
 
 ```
 
-    #### 6.2.5 事务属性：事务异常
-      1. 默认情况
-    
-          默认只针对运行时异常回滚，编译时异常不回滚。情景模拟代码如下：
+#### 6.2.5 事务属性：事务异常
+1. 默认情况
+
+默认只针对**运行时异常**回滚，编译时异常不回滚。情景模拟代码如下：
 
 ```Java
 @Service
@@ -4670,9 +4672,9 @@ public class StudentService {
     }
 }
 ```
-      2. 设置回滚异常
-    
-          rollbackFor属性：指定哪些异常类才会回滚,默认是 RuntimeException and Error 异常方可回滚!
+2. 设置回滚异常
+
+**rollbackFor属性**：指定哪些异常类才会回滚,默认是 RuntimeException and Error 异常方可回滚!
 
 ```Java
 /**
@@ -4688,11 +4690,11 @@ public void changeInfo() throws FileNotFoundException {
     studentDao.updateNameById("test1",1);
 }
 ```
-      3. 设置不回滚的异常
-    
-          在默认设置和已有设置的基础上，再指定一个异常类型，碰到它不回滚。
-    
-          noRollbackFor属性：指定哪些异常不会回滚, 默认没有指定,如果指定,应该在rollbackFor的范围内!
+3. 设置不回滚的异常
+
+在默认设置和已有设置的基础上，再指定一个异常类型，碰到它不回滚。
+
+noRollbackFor属性：指定哪些异常不会回滚, 默认没有指定,如果指定,应该在rollbackFor的范围内!
 
 ```Java
 @Service
@@ -4717,18 +4719,19 @@ public class StudentService {
 
 ```
 
-    #### 6.2.6 事务属性：事务隔离级别
-      1. 事务隔离级别
-    
-          数据库事务的隔离级别是指在多个事务并发执行时，数据库系统为了保证数据一致性所遵循的规定。常见的隔离级别包括：
-    
-          1. 读未提交（Read Uncommitted）：事务可以读取未被提交的数据，容易产生脏读、不可重复读和幻读等问题。实现简单但不太安全，一般不用。
-          2. 读已提交（Read Committed）：事务只能读取已经提交的数据，可以避免脏读问题，但可能引发不可重复读和幻读。
-          3. 可重复读（Repeatable Read）：在一个事务中，相同的查询将返回相同的结果集，不管其他事务对数据做了什么修改。可以避免脏读和不可重复读，但仍有幻读的问题。
-          4. 串行化（Serializable）：最高的隔离级别，完全禁止了并发，只允许一个事务执行完毕之后才能执行另一个事务。可以避免以上所有问题，但效率较低，不适用于高并发场景。
-    
-          不同的隔离级别适用于不同的场景，需要根据实际业务需求进行选择和调整。
-      2. 事务隔离级别设置
+#### 6.2.6 事务属性：事务隔离级别
+1. 事务隔离级别
+
+   数据库事务的隔离级别是指在多个事务并发执行时，数据库系统为了保证数据一致性所遵循的规定。常见的隔离级别包括：
+
+   - 读未提交（Read Uncommitted）：事务可以读取未被提交的数据，容易产生脏读、不可重复读和幻读等问题。实现简单但不太安全，一般不用。
+   - 读已提交（Read Committed）：事务只能读取已经提交的数据，可以避免脏读问题，但可能引发不可重复读和幻读。
+   - 可重复读（Repeatable Read）：在一个事务中，相同的查询将返回相同的结果集，不管其他事务对数据做了什么修改。可以避免脏读和不可重复读，但仍有幻读的问题。
+   - 串行化（Serializable）：最高的隔离级别，完全禁止了并发，只允许一个事务执行完毕之后才能执行另一个事务。可以避免以上所有问题，但效率较低，不适用于高并发场景。
+
+   不同的隔离级别适用于不同的场景，需要根据实际业务需求进行选择和调整。
+
+2. 事务隔离级别设置
 
 ```Java
 package com.atguigu.service;
@@ -4772,12 +4775,12 @@ public class StudentService {
 
 ```
 
-    #### 6.2.7 事务属性：事务传播行为
-      1. 事务传播行为要研究的问题
-    
-          ![](https://secure2.wostatic.cn/static/t9aMhzWSt1v8HnQy7Uaoui/img012.png)
-    
-          举例代码：
+#### 6.2.7 事务属性：事务传播行为
+1. 事务传播行为要研究的问题
+
+![](https://raw.gitmirror.com/Yukinoshita52/images/main/imgs/20250304155351316.png)
+
+举例代码：
 
 ```Java
 @Transactional
@@ -4794,24 +4797,25 @@ public void MethodB(){
 }
 
 ```
-      2. propagation属性
-    
-          @Transactional 注解通过 propagation 属性设置事务的传播行为。它的默认值是：
+2. propagation属性
+
+@Transactional 注解通过 propagation 属性设置事务的传播行为。它的默认值是：
 
 ```Java
 Propagation propagation() default Propagation.REQUIRED;
 
 ```
 
-          propagation 属性的可选值由 org.springframework.transaction.annotation.Propagation 枚举类提供：
+propagation 属性的可选值由 org.springframework.transaction.annotation.Propagation 枚举类提供：
 
 | 名称             | 含义                                               |
 | ---------------- | -------------------------------------------------- |
 | REQUIRED  默认值 | 如果父方法有事务，就加入，如果没有就新建自己独立！ |
 | REQUIRES_NEW     | 不管父方法是否有事务，我都新建事务，都是独立的！   |
 
-      3. 测试
-          1. 声明两个业务方法
+3. 测试
+
+- 声明两个业务方法
 
 ```Java
 @Service
@@ -4855,7 +4859,7 @@ public class StudentService {
 
 }
 ```
-          2. 声明一个整合业务方法
+- 声明一个整合业务方法
 
 ```Java
 @Service
@@ -4872,7 +4876,7 @@ public class TopService {
 }
 
 ```
-          3. 添加传播行为测试
+- 添加传播行为测试
 
 ```Java
 @SpringJUnitConfig(classes = AppConfig.class)
@@ -4892,14 +4896,22 @@ public class TxTest {
 
 ```
 
-          **注意：**
-    
-            在同一个类中，对于@Transactional注解的方法调用，事务传播行为不会生效。这是因为Spring框架中使用代理模式实现了事务机制，在同一个类中的方法调用并不经过代理，而是通过对象的方法调用，因此@Transactional注解的设置不会被代理捕获，也就不会产生任何事务传播行为的效果。
-      4. 其他传播行为值（了解）
-          1. Propagation.REQUIRED：如果当前存在事务，则加入当前事务，否则创建一个新事务。
-          2. Propagation.REQUIRES_NEW：创建一个新事务，并在新事务中执行。如果当前存在事务，则挂起当前事务，即使新事务抛出异常，也不会影响当前事务。
-          3. Propagation.NESTED：如果当前存在事务，则在该事务中嵌套一个新事务，如果没有事务，则与Propagation.REQUIRED一样。
-          4. Propagation.SUPPORTS：如果当前存在事务，则加入该事务，否则以非事务方式执行。
-          5. Propagation.NOT_SUPPORTED：以非事务方式执行，如果当前存在事务，挂起该事务。
-          6. Propagation.MANDATORY：必须在一个已有的事务中执行，否则抛出异常。
-          7. Propagation.NEVER：必须在没有事务的情况下执行，否则抛出异常。
+  **注意：**
+
+在同一个类中，对于@Transactional注解的方法调用，事务传播行为不会生效。这是因为Spring框架中使用代理模式实现了事务机制，在同一个类中的方法调用并不经过代理，而是通过对象的方法调用，因此@Transactional注解的设置不会被代理捕获，也就不会产生任何事务传播行为的效果。
+
+4. 其他传播行为值（了解）
+
+   - Propagation.REQUIRED：如果当前存在事务，则加入当前事务，否则创建一个新事务。
+
+   - Propagation.REQUIRES_NEW：创建一个新事务，并在新事务中执行。如果当前存在事务，则挂起当前事务，即使新事务抛出异常，也不会影响当前事务。
+
+   - Propagation.NESTED：如果当前存在事务，则在该事务中嵌套一个新事务，如果没有事务，则与Propagation.REQUIRED一样。
+
+   - Propagation.SUPPORTS：如果当前存在事务，则加入该事务，否则以非事务方式执行。
+
+   - Propagation.NOT_SUPPORTED：以非事务方式执行，如果当前存在事务，挂起该事务。
+
+   - Propagation.MANDATORY：必须在一个已有的事务中执行，否则抛出异常。
+
+   - Propagation.NEVER：必须在没有事务的情况下执行，否则抛出异常。
